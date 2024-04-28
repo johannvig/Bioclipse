@@ -1,0 +1,102 @@
+:root {
+    --first-color: #4DA951;
+    --second-color: #E1F4E2;
+    --text-color: black;
+}
+/*========================================*/
+/*     Partie body     */
+/*========================================*/
+body{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+/*========================================*/
+/*     Partie header     */
+/*========================================*/
+header{
+    background-color: #F9F7F3;
+    width: 100%;
+    height: 10vh;
+    min-height: 100px;
+    max-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*========================================*/
+/*     Partie navBar     */
+/*========================================*/
+#navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+    height: 10vh;
+    max-height: 200px;
+    width: 100%;
+}
+#logo {
+    width: 15vw;
+    height: 100%;
+    margin-left: 2vw;
+}
+  
+#logo a img{
+    height: 80%;
+    width: auto;
+}
+
+header nav{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+    height: 10vh;
+    align-items: center;
+}
+header a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+header a:hover{
+    text-decoration: underline;
+}
+#conteneurbtn{
+    display: flex;
+    width: 12vw;
+    justify-content: space-between;
+    align-items: center;
+}
+#conteneurbtn a{
+    display: flex;
+    justify-content: start;
+    width: 10vw;
+}
+
+#conteneurbtn img{
+    width: 5vh;
+    height: 5vh;
+    margin-right: 1vw;
+    border-radius: 50%;
+    
+}
+
+header button{
+    margin-right: 2vw;
+    background-color: transparent;
+    min-height: 50px;
+    height: 3vh;
+    min-width: 150px;
+    width: 5vw;
+    border-radius: 6px;
+    border: var(--text-color) solid 2px;
+}
+header button:hover{
+    color: aliceblue;
+    background-color: var(--text-color);
+    border: white solid 2px;
+}

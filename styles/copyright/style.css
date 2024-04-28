@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+
+    text-align: left;
+
+}
+
+.paragraphe{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+
+    width: 95%;
+    margin-left: 5%;
+}
+
+
+a{
+    text-decoration: none;
+    color: var(--first-color);
+
+}
+a:hover{
+    text-decoration: underline;
+}

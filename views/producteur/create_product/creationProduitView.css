@@ -1,0 +1,374 @@
+:root {
+    --first-color: #4DA951;
+    --second-color: #E1F4E2;
+    --text-color: black;
+}
+/*========================================*/
+/*     Partie body     */
+/*========================================*/
+body{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+/*========================================*/
+/*     Partie header     */
+/*========================================*/
+header{
+    background-color: #F9F7F3;
+    width: 100%;
+    height: 10vh;
+    min-height: 100px;
+    max-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*========================================*/
+/*     Partie navBar     */
+/*========================================*/
+#navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+    height: 10vh;
+    max-height: 200px;
+    width: 100%;
+}
+#logo {
+    width: 15vw;
+    height: 100%;
+    margin-left: 2vw;
+}
+  
+#logo img{
+    height: 80%;
+    width: auto;
+}
+
+header nav{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+    height: 10vh;
+    align-items: center;
+}
+header p{
+    text-decoration: none;
+    color: var(--text-color);
+}
+header p:hover{
+    text-decoration: underline;
+}
+#conteneurbtn{
+    display: flex;
+    width: 12vw;
+    justify-content: space-between;
+    align-items: center;
+}
+#conteneurbtn p{
+    display: flex;
+    justify-content: start;
+    width: 10vw;
+}
+
+#conteneurbtn img{
+    width: auto;
+    height: 5vh;
+    
+}
+
+header button{
+    margin-right: 2vw;
+    background-color: transparent;
+    min-height: 50px;
+    height: 3vh;
+    min-width: 150px;
+    width: 5vw;
+    border-radius: 6px;
+    border: var(--text-color) solid 2px;
+}
+header button:hover{
+    color: aliceblue;
+    background-color: var(--text-color);
+    border: white solid 2px;
+}
+
+
+
+
+
+
+form {
+    display: flex;
+    flex-direction: row;
+    margin-top:-40px;
+}
+
+.left-content, .right-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left-content {
+    margin: 40px 0 0 120px;
+}
+
+.right-content {
+    margin: 140px 160px 0 80px;
+    gap: 19px;
+    margin-top:120px;
+}
+
+.price-container {
+    display: flex;
+}
+
+.image-container {
+    margin-top: 35px;
+    position: relative;
+    width: 550px;
+    height: 520px;
+    overflow: hidden;
+}
+
+.image-container input, 
+#productImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+    border-radius: 15px;
+}
+
+.edit-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#productDisplay {
+    text-decoration: underline;
+    font-size: 21px;
+}
+
+#productCategory, 
+#productUnit {
+    height: 30px;
+}
+
+#productName{
+    height: 25px;
+}
+
+#productName, 
+#productCategory {
+    width: 35%;
+}
+
+#productPrice, 
+#stockNumber {
+    width: 21%;
+}
+
+label[for="productCategory"], 
+label[for="productPrice"] {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#productCategory {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 36%;
+}
+
+#productCategory::-ms-expand {
+    display: none;
+}
+
+#productCategory:focus {
+    border-color: #ffffff;
+}
+
+.price-container select {
+    background-position: right 8px center;
+}
+
+#productDescription {
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+    resize: none;
+    line-height: 1.5;
+    outline: none;
+}
+
+#productDescription::placeholder {
+    color: #aaa;
+}
+
+.quantity-control {
+    display: flex;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 80%;
+}
+
+.quantity-control input[type="text"] {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    text-align: center;
+    padding: 4px;
+    font-size: 16px;
+}
+
+.stock-alert-input {
+    flex-grow: 0;
+    width: 60%;
+}
+
+.quantity-control button {
+    background: none;
+    border: none;
+    padding: 2px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    user-select: none;
+}
+
+.quantity-control button:first-child,
+.quantity-control button:last-child {
+    color: #555;
+}
+
+.stock-container {
+    margin-top: 10px;
+    display: flex;
+    gap: 120px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 80px; 
+    margin-left: 63%; 
+}
+
+.button-container a,
+.button-container button {
+    padding: 5px 10px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    min-width: 70px; 
+    line-height: 22px; 
+    color: #000; 
+    font-size: 14px; 
+}
+
+.button-container a:hover,
+.button-container button:hover {
+    background-color: #f2f2f2; 
+}
+
+.button-container button:disabled {
+    background-color: #ccc;
+    color: #666;
+}
+
+.button-container button[type="submit"]:not(:disabled) {
+    background-color: #4da951;
+    color: #fff;
+    border-color: #4da951;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 4px;
+}
+
+.required-field {
+    position: relative;
+}
+
+.required-field input,
+.required-field select,
+.required-field textarea {
+    border: 1px solid #ccc;
+}
+
+.required-field input.error,
+.required-field select.error,
+.required-field textarea.error {
+    border-color: red;
+}
+
+
+
+
+.info-container {
+    position: relative;
+    
+    display: inline-block;
+}
+
+.info-icon {
+    margin-left:-20vh;
+    margin-top:-2px;
+    cursor: pointer;
+}
+
+.popup {
+    display: none;
+    position: absolute;
+    bottom: 110%;
+    margin-left:-300px;
+    width: 300px;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 15px;
+    z-index: 1;
+    font-size: 12px;
+}
+
+/* Triangle under the popup */
+.popup::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+}

@@ -1,0 +1,305 @@
+:root {
+    --first-color: #4DA951;
+    --second-color: #E1F4E2;
+    --text-color: black;
+}
+/*========================================*/
+/*     Partie body     */
+/*========================================*/
+body{
+    background-color: #F7F7F5;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+/*========================================*/
+/*     Partie header     */
+/*========================================*/
+#header{
+    background-color: var(--second-color);
+    width: 100%;
+    height: 90vh;
+    min-height: 500px;
+    display: flex;
+}
+#header img{
+    height: 100%;
+    width: 60%;
+    object-fit: cover;
+}
+#header #droite_acceuil{
+    background-color: var(--first-color);
+    min-height: 100%;
+    width: 40%;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+}
+#header #droite_acceuil h1{
+    margin-top: 25vh;
+    font-size: 3rem;
+    margin-bottom: -10px;
+}
+
+#header #droite_acceuil h3{
+    font-size: 1.5rem;
+}
+#header #droite_acceuil a{
+    margin-top: 35vh;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+}
+
+#header #droite_acceuil a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+/*========================================*/
+/*     Partie titre                   */
+/*========================================*/
+
+.titre{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+.titre .semi_bar{
+    height: 1px;
+    width: 25vw;
+    background-color: black;
+}
+
+/*========================================*/
+/*     Partie Slider                   */
+/*========================================*/
+
+#slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 80vw;
+}
+
+#slider-wrapper {
+    display: flex;
+    transition: transform 0.3s ease-out;
+}
+
+#slide-left, #slide-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    height: 2.5vw;
+    width: 2.5vw;
+    cursor: pointer;
+    z-index: 3;
+}
+
+#slide-left {
+    left: 10px;
+}
+
+#slide-right {
+    right: 10px;
+}
+
+#containeur_produit{
+    width: 90%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    margin-left: 5%;
+}
+
+
+.card{
+    min-width: 15vw;
+    width: 20%;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    margin-left: 2.1%;
+    margin-right: 2.1%;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card img {
+    width: 100%;
+    height: 70%; 
+    object-fit: cover; 
+}
+
+
+.card:hover{
+    transform: scale(1.1); /* Zoom de 20% */
+}
+
+.card p{
+    margin-top: -15px;
+}
+
+#voir_produit{
+    margin-bottom: 5vh;
+    height: 5vh;
+    min-height: 50px;
+    width: 10vw;
+    min-width: 150px;
+    background-color: var(--first-color);
+    color: #293e31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+
+#voir_produit:hover{
+    background-color: transparent;
+    color: #293e31;
+    border: 2px solid var(--first-color);
+    text-decoration: underline;
+}
+/*========================================*/
+/*     Partie explication     */
+/*========================================*/
+#explication {
+    display: flex;
+    width: 100%;
+    height: 35vh;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#explication img{
+    height: auto;
+    width: 90%;
+    object-fit: cover;
+}
+
+
+
+
+
+/*========================================*/
+/*     Partie description     */
+/*========================================*/
+#description{
+    height: 60vh;
+    min-height: 750px;
+    display: flex;
+    width: 90vw;
+    justify-content: space-between;
+    align-items: center;
+}
+#description #text{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+#description .container{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+}
+#description .container p{
+    width: 80%;
+    color: #5e5e5e;
+    font-size: 1.2rem;
+}
+
+
+#description #illustration{
+    height: 50%;
+    margin-right: 10%;
+}
+
+
+
+
+
+
+
+/*========================================*/
+/*     Partie fonctionnement     */
+/*========================================*/
+#fonctionnement{
+    height: 50vh;
+    min-height: 550px;
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+}
+#fonctionnement img{
+    height: 80%;
+    aspect-ratio: 1/1;
+}
+#fonctionnement #text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#fonctionnement #text h1{
+width: 100%;
+}
+#fonctionnement #text a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--first-color);
+    text-decoration: none;
+    color: whitesmoke;
+    border-radius: 5px;
+    height: 3%;
+    min-height: 50px;
+    min-width: 250px;
+    width: 20%;
+}
+#fonctionnement #text a:hover{
+    color: var(--first-color);
+    background-color: transparent;
+    border: 2px solid var(--first-color);
+    text-decoration: underline;
+}
+
+/*========================================*/
+/*     Partie carte     */
+/*========================================*/
+#carte{
+    margin-bottom: 10vh;
+    height: 80vh;
+    min-height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#map{
+    border-radius: 15px;
+}

@@ -1,0 +1,173 @@
+body {
+  height: 100vh;
+}
+
+.table-fix-head {
+  overflow-y: auto;
+  height: 100%;
+}
+
+.sortable-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  color: #333;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.sortable-table th,
+.sortable-table td {
+  padding: 8px 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.sortable-table th:hover{
+  cursor: pointer;
+  background-color: #ddd;
+}
+
+.sortable-table td > img {
+  width: 75%;
+  height: 75%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.sortable-table td > a {
+  color: #333;
+  text-decoration: none;
+}
+
+.sortable-table th {
+  position: sticky;
+  top: 0;
+  background-color: #eee;
+  z-index: 2;
+}
+
+.sortable-table tr:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+.sortable-table tr:hover {
+  background-color: #ddd;
+}
+
+.sortable-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: fit-content;
+  height: auto;
+  margin: 0.5em 0.5em 0.5em 0;
+  border: 1px solid #ddd;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: fit-content;
+  border-right: 1px solid #ddd;
+  height: 2em;
+}
+
+.search-bar > input {
+  border: none;
+  padding-left: 0.5em;
+  outline: none;
+}
+
+.search-bar > input:focus {
+  outline: none;
+}
+
+.search-bar > img {
+  width: 2em;
+  height: 2em;
+}
+
+.sort-drop-down {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: fit-content;
+  height: 2em;
+}
+
+.sort-drop-down > label {
+  padding-left: 0.5em;
+  border: none;
+  color: #999;
+}
+
+.sort-drop-down > select {
+  padding: 0.5em;
+  outline: none;
+  border: none;
+  appearance: none;
+  padding-right: 2em;
+  background: url("/images/components/arrow-down.svg") no-repeat right
+    center;
+}
+
+::placeholder {
+  color: #999;
+}
+
+.dropbtn {
+  font-size: x-large;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 2em;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  right: 0;
+  z-index: 1;
+}
+
+.dropdown-content > form > input {
+  width: 100%;
+  padding: 1em;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content > button {
+  width: 100%;
+  padding: 1em;
+  border: none;
+  cursor: pointer;
+  background-color: #f1f1f1;
+  text-align: left;
+}
+
+.dropdown-content > button:hover {
+  background-color: #ddd;
+}
+
+.dropdown-content > form > input:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}

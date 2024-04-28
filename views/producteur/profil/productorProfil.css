@@ -1,0 +1,80 @@
+:root {
+    --first-color: #4DA951;
+    --second-color: #E1F4E2;
+    --text-color: black;
+    --text-second-color: #9197B3;
+}
+p{
+    font-size: 1rem;
+}
+#profil{
+    height: 100vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#profil #header_profil{
+    margin-top: 3vh;
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+}
+#profil #header_profil img{
+    height: 15vh;
+    border-radius: 100%;
+}
+
+#formulaire{
+    height: 80vh;
+    width: 50.5vw;
+}
+
+#prenom_nom{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.group_textfile input{
+    height: 4vh;
+    width: 50vw;
+}
+
+.group_textfile_demi input{
+    height: 4vh;
+    width: 20vw;
+}
+
+#profil #group_btn{
+    margin-top: 2vh;
+    width: 50.5vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+#group_btn input{
+    background-color: transparent;
+    border-radius: 5px;
+}
+#group_btn input:hover{
+    cursor: pointer;
+}
+
+    
+#profil #group_btn #btn_validation{
+    border: var(--first-color) solid 2px;
+    color: var(--first-color);
+}
+#profil #group_btn #btn_validation:hover{
+    color: white;
+    background-color: var(--first-color);
+}
+#profil #group_btn #btn_annulation{
+    color: red;
+    border: red solid 2px;
+}
+#profil #group_btn #btn_annulation:hover{
+    color: white;
+    background-color: red;
+}

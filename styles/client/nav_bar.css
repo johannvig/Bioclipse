@@ -1,0 +1,135 @@
+:root {
+    --first-color: #4DA951;
+    --second-color: #E1F4E2;
+    --text-color: black;
+    --text-second-color: #9197B3;
+}
+/*========================================*/
+/*     Partie body     */
+/*========================================*/
+body{
+    margin: 0;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+}
+header{
+    height: 100vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    border-right: 2px black solid;
+}
+header #btnBack{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 5vh;
+    width: 5vh;
+    border-radius: 100%;
+    background-color: transparent;
+    border: black 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header #btnBack img{
+    rotate: 180deg;
+}
+header #conteneurLogo{
+    display: flex;
+    justify-content: center;
+}
+header #conteneurLogo #logo{
+    width: 45%;
+}
+header #liens{
+    margin-top: 10vh;
+    height: 22vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items:center;
+    justify-content: space-between;
+}
+header #liens a{
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    color: var(--text-second-color);
+    text-decoration: none;
+}
+header #liens a:hover{
+    text-decoration: underline;
+}
+header #liens a img{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+header #liens #selectionner{
+    background-color: var(--first-color);
+    border-radius: 3px;
+    color: white;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 18vh;
+}
+footer #compte{
+    margin-top: 5vh;
+    display: flex;
+    width: 80%;
+}
+footer #compte img{
+    width: 20%;
+    border-radius: 100%;
+    margin-right: 5%;
+}
+footer #compte #prenom{
+    font-size: 1rem;
+}
+footer #compte #categori{
+    font-size: 0.8rem;
+}
+footer #btn_footer{
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 7vh;
+    width: 80%;
+}
+footer #btn_footer a{
+    background-color: transparent;
+    border: transparent;
+    display: flex;
+    color: black;
+    text-decoration: none;
+
+}
+footer #btn_footer a img{
+    margin-right: 25px;
+}
+footer #btn_footer #btn_sup{
+    display: flex;
+    color: red;
+}
+footer #btn_footer a:hover{
+    text-decoration: underline;
+}
+@media (min-width: 768px) and (max-width: 1024px) { 
+    body{
+        background-color: blue;
+    }
+
+}
+@media (min-width: 480px) and (max-width: 768px) { 
+    body{
+        background-color: black;
+    }
+
+}

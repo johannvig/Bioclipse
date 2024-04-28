@@ -1,0 +1,454 @@
+:root {
+    --first-color: #4DA951;
+    --second-color: #E1F4E2;
+    --text-color: black;
+}
+/*========================================*/
+/*     Partie gauche     */
+/*========================================*/
+body{
+    display: flex;
+    margin: 0;
+    height: 100vh;
+}
+header{
+    width: 20vw;
+    min-width: 20vw;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    border-right: rgb(102, 102, 102, 0.75) 1px solid;
+}
+
+#containeur{
+    height: 95%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    margin-top: 2%;
+}
+header .containeur_groupe{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 10%;
+    margin-top: 5%;
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+    width: 100%;
+}
+.containeur_groupe .titre_message{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+.containeur_groupe a{
+    width: 95%;
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+}
+header a:hover{
+    color: rgb(224, 224, 224);
+    background-color: rgb(102, 102, 102);
+}
+.containeur_groupe .titre_message h4{
+    font-size: 1rem;
+    margin: 0;
+}
+.containeur_groupe .titre_message p{
+    font-size: 0.8rem;
+}
+
+.profil{
+    height: 50px;
+    width: 50px;
+    margin-right: 2%;
+    margin-left: 2%;
+    border-radius: 50%;
+}
+
+#accueil{
+    height: 6.5vh;
+    min-height: 6.5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--first-color);
+    text-decoration: none;
+    color: black;
+    background-color: #ffffff;
+    border: rgb(102, 102, 102, 0.75) 1px solid;
+}
+#accueil:hover{
+    cursor: pointer;
+}
+
+/*========================================*/
+/*     Partie ajout correspondant     */
+/*========================================*/
+#search-results{
+    height: 20%;
+    min-height: 20%;
+    overflow: auto;
+    width: 90%;
+}
+#search_contact{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 5%;
+    border: gray 1px solid;
+    border-radius: 5px;
+}
+#search_contact #search_bar{
+    width: 90%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+}
+#search_contact #search_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+}
+#search_contact #search_btn:hover{
+    background-color: var(--first-color);
+    cursor: pointer;
+}
+.nom{
+    border: none;
+    background-color: transparent;
+}
+
+.nom:hover{
+    background-color: var(--first-color);
+    cursor: pointer;
+    color: white;
+}
+/*========================================*/
+/*     Partie bar séparation     */
+/*========================================*/
+.bar_separation{
+    height: 1px;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.25);
+}
+/*========================================*/
+/*     Partie Haut de page     */
+/*========================================*/
+#page{
+    width: clamp(50%, 80%, 80%);
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f8f8;
+}
+#page #header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+    background-color: #eef0f4;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+#page #header h1{
+    margin-left: 2vw;
+    font-size: 1.5rem;
+}
+/*========================================*/
+/*     Partie Haut de page     */
+/*========================================*/
+#page #header #nom_photo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 1%;
+    width: 70%;
+}
+
+#page #header img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+#page #header #groupe{
+    border: none;
+    height: 90%;
+    width: 5%;
+    margin-right: 2%;
+    font-size: 3rem;
+    text-align: center;
+}
+#page #header button:hover{
+    background-color: var(--first-color);
+    color: white;
+}
+/*========================================*/
+/*     Partie message     */
+/*========================================*/
+#page #message{
+    height: 90vh;
+    width: 100%;
+    overflow-y: auto;
+}
+#message img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+#message .conteneur_date{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -10px;
+}
+#message .conteneur_message_utilisateur{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+#message .conteneur_message_correspondant{
+    display: flex;
+    margin-left: 2vw;
+    align-items: end;
+}
+#message .conteneur_message_correspondant img{
+    height: 50px;
+    width: 50px;
+}
+
+
+#message .conteneur_message_utilisateur,.conteneur_message_correspondant{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.message_correspondant, .message_utilisateur {
+    max-width: 800px; /* Limite maximale pour la largeur */
+    max-height: 400px;
+    padding: 0px 10px 0px 10px;
+    border-radius: 5px; /* Les coins arrondis de la bulle */
+    overflow-y: auto; /* Permettre le défilement si le texte est très long */
+    display: inline-block; /* Fait que la div ne prenne que l'espace nécessaire */
+    word-wrap: break-word; /* Empêche le débordement de texte long sans espaces */
+}
+
+.message_utilisateur{
+    background-color: var(--first-color);
+    color: whitesmoke;
+    margin-right: 2vw;
+}
+.message_correspondant{
+    background-color: var(--second-color);
+    color: var(--text-color);
+}
+.heure{
+    display: flex;
+    justify-content: end;
+    margin-top: -10px;
+    font-size: 0.8rem;
+}
+
+/*========================================*/
+/*     Partie envoie de message     */
+/*========================================*/
+
+#bar_message{
+    height: 6.5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eef0f4;
+}
+#bar_message form{
+    width: 95%;
+    height: 100%;
+    display: flex;
+    border-radius: 5px;
+}
+#bar_message form #write_message{
+    width: 95%;
+    border: none;
+    background-color: transparent;
+    background-color: #eef0f4;
+}
+#bar_message form #send_message{
+    width: 5%;
+    border: none;
+    background-color: transparent;
+    border-radius: 0px 5px 5px 0px;
+}
+
+#bar_message form #send_message:hover{
+    background-color: var(--first-color);
+    cursor: pointer;
+}
+
+/*========================================*/
+/*     Partie ajout au groupe     */
+/*========================================*/
+
+#search_results_add{
+    height: 10vh;
+    min-height: 10vh;
+    overflow: auto;
+    width: 10vw;
+    z-index: 1;
+}
+
+
+/*========================================*/
+/*     Partie block de droite     */
+/*========================================*/
+.bande-affichee {
+    display: none;
+    /* Autres styles pour la bande, comme width, height, etc. */
+}
+
+.bande-cachee {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20vw;
+    border-left: rgb(102, 102, 102, 0.75) 1px solid;
+}
+
+.bande-cachee #headerBandeDroite{
+    width: 100%;
+    height: 93.5%;
+}
+#headerBandeDroite h2{
+    margin-left: 5%;
+    height: 10%;
+    width: 95%;
+}
+.bande-cachee #exit{
+    width: 100%;
+    min-height: 6.5vh;
+    height: 6.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.bande-cachee #exit #exit_group{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    background-color: transparent;
+    border: none;
+    border-top: rgb(102, 102, 102, 0.75) 1px solid;
+}
+
+.bande-cachee #exit #exit_group:hover{
+    cursor: pointer;
+}
+
+/*========================================*/
+/*     Partie mise à jour du groupe      */
+/*========================================*/
+#nom_prenom{
+    margin-left: 5%;
+    width: 90%;
+    display: flex;
+}
+.update_groupe{
+    width: 90%;
+    height: 15vh;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#groupTitle{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#groupImage{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#updateSettings{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--first-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#search_contact_add{
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    width: 90%;
+    height: 5vh;
+    border: gray 1px solid;
+    border-radius: 5px;
+}
+
+#search_contact_add #search_bar_add{
+    width: 90%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+}
+#search_contact_add #search_btn_add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+}
+
+#search_contact_add #search_btn_add:hover{
+    cursor: pointer;
+}
+
+#search_results_add{
+    margin-left: 5%;
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 20%;
+    border: gray 1px solid;
+    border-radius: 5px;
+}
+
+#liste_nom{
+    height: 30vh;
+    width: 90%;
+    margin-left: 5%;
+    overflow: auto;
+}

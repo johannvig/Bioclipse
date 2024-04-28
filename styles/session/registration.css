@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../../images/connection-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: auto;
+}
+
+#right {
+    margin-left: 40%;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 0.75em;
+    border-bottom-left-radius: 0.75em;
+    padding: 3%;
+    min-height: 100vh;
+}
+
+.div-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+}
+
+.div-title > h1 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.div-choice {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+}
+
+.div-choice > button {
+    background-color: white;
+    border: 1px solid #D1D1D1;
+    padding: 1vh;
+    font-size: 1.2em;
+    color: black;
+    cursor: pointer;
+    width: 100%;
+}
+
+.div-choice > button:hover {
+    background-color: #D1D1D1;
+}
+
+#btn-choiced {
+    background-color: #3B8A3B;
+    border: none;
+    color: white;
+}
+
+h1 {
+    color: #42505C;
+}
+
+#right > button {
+    border: none;
+    background-color: transparent;
+}
+
+#right > button:hover {
+    cursor: pointer;
+}
+
+#right > div {
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    margin-left : 15%;
+    margin-right : 15%;
+}
+
+.indicator {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 5vh;
+}
+
+.indicator .line {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 3px;
+    background: #ddd;
+    width: 100%;
+    left: 0;
+    z-index: 10;
+}
+
+.indicator .line span {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 0;
+    left: 0;
+    width: 0%;
+    background: #3B8A3B;
+    height: 100%;
+}
+
+.indicator p{
+    position: relative;
+    z-index: 20;
+    width: 40px;
+    height: 40px;
+    border: 4px solid #ddd;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    transition: 0.3s ;
+}
+
+.indicator p.active {
+    border-color: #3B8A3B;
+}
+
+.tab {
+    display: none;
+}
+
+.tab.show {
+    display: block;
+}
+
+.tab h2 {
+    margin-bottom: 1vh;
+}
+
+form .tab .div-input {
+    margin-bottom: 3vh;
+    width: 100%;
+}
+
+form .tab .div-select {
+    margin-bottom: 3vh;
+    width: 100%;
+}
+
+form .tab .div-checkbox {
+    margin-bottom: 2.5vh;
+    width: 100%;
+    display: flex;
+    gap: 1vh;
+}
+
+.tab .div-input input {
+    width: 100%;
+    padding: 1vh;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+.tab .div-select select {
+    width: 100%;
+    padding: 1vh;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+.tab .div-checkbox input {
+    width: 1.5em;
+    height: 1.5em;
+    cursor: pointer;
+}
+
+form .btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+form .btn button {
+    padding: 1vh 2vh;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 1vh;
+}
+
+form .btn button.prev {
+    background: #ddd;
+    color: #000;
+}
+
+form .btn button.next {
+    background: #3B8A3B;
+    color: #fff;
+}
+
+
+.div-select > select:focus {
+    height: 6.25em;
+}
+
+a {
+    text-decoration: none;
+    color: #3B8A3B;
+}
+
+a:hover {
+    text-decoration: underline;
+}

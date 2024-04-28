@@ -1,0 +1,255 @@
+:root {
+    --first-color: #4DA951;
+    --second-color: #E1F4E2;
+    --text-color: black;
+}
+/*========================================*/
+/*     Partie header Producteur     */
+/*========================================*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+#page{
+    min-height: 68vh;
+}
+.header_productor{
+    width: 90vw;
+    min-width: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5vh;
+    margin-top: 5vh;
+}
+.header_productor .productor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15vw;
+    min-width: 250px;
+    height: 100%;
+}
+.header_productor .productor img{
+    height: 50%;
+    margin-right: -10%;
+}
+
+.header_productor .productor p{
+    height: 50%;
+    margin-left: 10%;
+}
+
+
+.header_productor .adresse{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.header_productor .adresse img{
+    height: 2.5vh;
+}
+.header_productor a{
+    color: black;
+    text-decoration: none;
+}
+.header_productor a:hover{
+    color: var(--first-color);
+    text-decoration: underline;
+}
+/*========================================*/
+/*     Partie bar separation     */
+/*========================================*/
+.bar_separation{
+    width: 90vw;
+    height: 1px;
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 5vh;
+}
+
+.bar_separation_produit{
+    height: 2px;
+    width: 56vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 2vw;
+    background-color: black;
+}
+
+/*========================================*/
+/*     Partie header Commande     */
+/*========================================*/
+.containeur_commande{
+    display: flex;
+    width: 90vw;
+    margin-bottom: 15vh;
+}
+.containeur_all_produit{
+    display: flex;
+    flex-direction: column;
+}
+.containeur_produit{
+    display: flex;
+    width: 60vw;
+    height: 20vh;
+    justify-content: space-between;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    margin-bottom: 3vh;
+}
+.containeur_produit a img{
+    height: 20vh;
+}
+.info_produit{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    justify-content: space-between;
+}
+.nom_prix{
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+}
+.info_quantite{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: #a2a3b1 solid 1px;
+    border-radius: 5px;
+    width: 25%;
+}
+.conteur_quantite{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+
+}
+.info_quantite .btn{
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.info_quantite .quantite_article{
+    width: 40%;
+    text-align: center;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+.footer .submit{
+    border: none;
+    background-color: transparent;
+    color: var(--first-color);
+    cursor: pointer;
+    
+}
+.footer .submit:hover{
+    text-decoration: underline;
+}
+.delete{
+    border: none;
+    background-color: transparent;
+    color: red;
+    cursor: pointer;
+}
+.delete:hover{
+    text-decoration: underline;
+}
+/*========================================*/
+/*     Partie header Producteur     */
+/*========================================*/
+
+.conteneur_info_commande{
+    margin-left: 5vw;
+    width: 30vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.conteneur_info_commande .date{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.conteneur_info_commande .date .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--first-color);
+    color: whitesmoke;
+    height: 30%;
+}
+
+.conteneur_info_commande .date_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 90%;
+}
+.conteneur_info_commande .date_form .containeur_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 95%;
+    width: 100%;
+}
+.conteneur_info_commande .date .date_form form #date{
+    width: 100%;
+    height: 25%;
+    background-color: #eeeeee;
+    color: #afafaf;
+    border: none;
+    border-bottom: #4DA951 solid 1px;
+}
+
+.conteneur_info_commande .date .date_form #submit{
+    width: 100%;
+    height: 25%;
+    background-color: var(--first-color);
+    color: whitesmoke;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 1.3rem;
+}
+
+.date_form{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-self: center;
+}
+
+.resume_commande{
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.recapitulatif{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}

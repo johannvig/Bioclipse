@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("../../images/connection-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: auto;
+}
+
+#right {
+    margin-left: 40%;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 0.75em;
+    border-bottom-left-radius: 0.75em;
+    padding: 3%;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #525252;
+}
+
+#right > button {
+    border: none;
+    background-color: transparent;
+}
+
+#right > button:hover {
+    cursor: pointer;
+}
+
+.div-connection {
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    margin-left : 15%;
+    margin-right : 15%;
+}
+
+.div-connection > p {
+    margin-top: 5%;
+    margin-left : 15%;
+    margin-right : 15%;
+    text-align: center;
+}
+
+.div-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+}
+
+.div-title > h1 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.div-choice {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+}
+
+.div-choice > button {
+    background-color: white;
+    border: 1px solid #D1D1D1;
+    padding: 1vh;
+    font-size: 1.2em;
+    color: black;
+    cursor: pointer;
+    width: 100%;
+}
+
+.div-choice > button:hover {
+    background-color: #D1D1D1;
+}
+
+#btn-choiced {
+    background-color: #3B8A3B;
+    border: none;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 6vh;
+}
+
+.div-submit {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.div-submit button {
+    background-color: #4DA951;
+    border: none;
+    border-radius: 0.25em;
+    padding: 2vh;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+}
+
+.div-submit a {
+    text-align: center;
+    color: #4DA951;
+}
+
+.div-input {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vh;
+}
+
+.div-input input {
+    width: 100%;
+    padding: 1.5vh;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+.div-input > input:focus {
+    outline: none;
+}
+

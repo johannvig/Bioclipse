@@ -1,0 +1,42 @@
+body {
+  display: flex;
+}
+
+.right-div {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 80%;
+}
+
+.no-results {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+h2 {
+  margin-top: 1vh;
+}
+
+#nouveau-produit {
+  display: flex;
+  align-items: center;
+  background-color: #4caf50;
+  text-decoration: none;
+  width: fit-content;
+  color: white;
+  border-radius: 10px;
+  font-size: 12px;
+  padding: 1vh;
+}
+
+#nouveau-produit p {
+  margin: 0;
+}
+
+#nouveau-produit img {
+  margin-left: 10px;
+  vertical-align: middle;
+}

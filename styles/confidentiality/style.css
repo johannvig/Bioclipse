@@ -1,0 +1,36 @@
+:root {
+    --first-color: #4DA951;
+    --second-color: #E1F4E2;
+    --text-color: black;
+}
+
+/*========================================*/
+/*     votre parti      */
+/*========================================*/
+#votre_page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left : 50px;
+    padding-right : 50px;
+}
+h1{
+    font-family: Inter;
+}
+h2{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: bold;
+
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+p{
+    margin-top: 10px;
+}
+#titre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
