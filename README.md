@@ -21,6 +21,13 @@ Développer une application web pour les producteurs alimentaires afin de distri
 - Filtrer les producteurs par divers critères (type de produit, lieu, distance, etc.).
 - Consulter les produits commercialisés par un producteur.
 
+![image](https://github.com/johannvig/Bioclipse/assets/102874093/65de7b51-97c7-42bf-bc4f-270714403c15)
+
+![image](https://github.com/johannvig/Bioclipse/assets/102874093/575990bb-dbeb-4e1e-b523-a10f7fb1361c)
+
+
+![image](https://github.com/johannvig/Bioclipse/assets/102874093/7c573d68-a27a-4990-a9dd-1501a5c50dbd)
+
 ### Client
 - Toutes les capacités du Visiteur.
 - Créer, modifier, supprimer son compte.
@@ -52,13 +59,6 @@ Développer une application web pour les producteurs alimentaires afin de distri
 
 
 
-
-![image](https://github.com/johannvig/Bioclipse/assets/102874093/65de7b51-97c7-42bf-bc4f-270714403c15)
-
-![image](https://github.com/johannvig/Bioclipse/assets/102874093/575990bb-dbeb-4e1e-b523-a10f7fb1361c)
-
-
-![image](https://github.com/johannvig/Bioclipse/assets/102874093/7c573d68-a27a-4990-a9dd-1501a5c50dbd)
 
 
 ![image](https://github.com/johannvig/Bioclipse/assets/102874093/fde8cf51-f326-40f5-a81e-0a996bc05e75)
