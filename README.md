@@ -34,33 +34,6 @@ Développer une application web pour les producteurs alimentaires afin de distri
 - Commander des produits (paiement et livraison sur place).
 - Envoyer des messages (à l'admin, à un producteur).
 
-### Producteur
-- Créer, modifier, supprimer son compte.
-- Supprimer des comptes clients lui appartenant.
-- Ajouter, supprimer, modifier des produits.
-- Gérer les stocks.
-- Lister les commandes (en cours, prête, livrée, annulée).
-- Modifier le statut d'une commande.
-- Créer un PDF pour chaque commande en cours.
-- Envoyer des messages (à l'admin, à un client).
-- Consulter les messages reçus et y répondre.
-
-### Administrateur
-- Supprimer des comptes producteurs.
-- Consulter les messages reçus et y répondre.
-- Envoyer des messages à une liste de diffusion (comptes Client et Producteur).
-
-## Contraintes et Exigences
-
-- **Conception Centrée sur l'Utilisateur** : L'interface doit se concentrer sur les besoins des utilisateurs, avec une bonne ergonomie et expérience utilisateur.
-- **Exigences Fonctionnelles et Techniques** :
-  - Persistance des données via une base de données MySQL ou SQL Server.
-  - Application entièrement paramétrable (pas de valeurs en dur dans le code) via une page de préférences (adresse de la base de données, étiquettes des champs texte, boutons, etc.).
-
-
-
-
-
 ![image](https://github.com/johannvig/Bioclipse/assets/102874093/fde8cf51-f326-40f5-a81e-0a996bc05e75)
 
 
@@ -77,10 +50,32 @@ Développer une application web pour les producteurs alimentaires afin de distri
 
 ![image](https://github.com/johannvig/Bioclipse/assets/102874093/6ee63ac6-4e54-4430-bfd2-141ddb6884e6)
 
+### Producteur
+- Créer, modifier, supprimer son compte.
+- Supprimer des comptes clients lui appartenant.
+- Ajouter, supprimer, modifier des produits.
+- Gérer les stocks.
+- Lister les commandes (en cours, prête, livrée, annulée).
+- Modifier le statut d'une commande.
+- Créer un PDF pour chaque commande en cours.
+- Envoyer des messages (à l'admin, à un client).
+- Consulter les messages reçus et y répondre.
+
 ![image](https://github.com/johannvig/Bioclipse/assets/102874093/cb41812f-e267-4a0a-aa48-b7c9d9e0e003)
 
 ![image](https://github.com/johannvig/Bioclipse/assets/102874093/c8b16127-b2ef-4136-b14c-b2cfd4ee669d)
 
+### Administrateur
+- Supprimer des comptes producteurs.
+- Consulter les messages reçus et y répondre.
+- Envoyer des messages à une liste de diffusion (comptes Client et Producteur).
+
+## Contraintes et Exigences
+
+- **Conception Centrée sur l'Utilisateur** : L'interface doit se concentrer sur les besoins des utilisateurs, avec une bonne ergonomie et expérience utilisateur.
+- **Exigences Fonctionnelles et Techniques** :
+  - Persistance des données via une base de données MySQL ou SQL Server.
+  - Application entièrement paramétrable (pas de valeurs en dur dans le code) via une page de préférences (adresse de la base de données, étiquettes des champs texte, boutons, etc.).
 
 
 - Compte utilisateur (test) :
