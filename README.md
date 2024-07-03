@@ -44,42 +44,42 @@ Développer une application web pour les producteurs alimentaires afin de distri
 
 ![image](https://github.com/johannvig/Bioclipse/assets/102874093/fde8cf51-f326-40f5-a81e-0a996bc05e75)
 <p align="center">
-  <em>Figure 2: Produits commercialisés par un producteur</em>
+  <em>Figure 4: Page de connexion</em>
 </p>
 
 ![image](https://github.com/johannvig/Bioclipse/assets/102874093/d21e825d-64bc-4f2e-9219-ec4f216ca210)
 <p align="center">
-  <em>Figure 2: Produits commercialisés par un producteur</em>
+  <em>Figure 5: Page de création de compte</em>
 </p>
 
 ![image](https://github.com/johannvig/Bioclipse/assets/102874093/b8239b86-8caf-40ef-8af4-f67771af9e75)
 <p align="center">
-  <em>Figure 2: Produits commercialisés par un producteur</em>
+  <em>Figure 6: Page des paramètres d'un compte</em>
 </p>
 
 ![image](https://github.com/johannvig/Bioclipse/assets/102874093/d781b4b8-4eda-49cd-a804-f17eefab75a2)
 <p align="center">
-  <em>Figure 2: Produits commercialisés par un producteur</em>
+  <em>Figure 7: Page de la messagerie</em>
 </p>
 
 ![image](https://github.com/johannvig/Bioclipse/assets/102874093/94c21f2d-001b-45d3-b883-da8317d11f9a)
 <p align="center">
-  <em>Figure 2: Produits commercialisés par un producteur</em>
+  <em>Figure 8: Page d'un produit</em>
 </p>
 
 ![image](https://github.com/johannvig/Bioclipse/assets/102874093/ac83812a-2c72-49cd-ace3-b5524fd065d4)
 <p align="center">
-  <em>Figure 2: Produits commercialisés par un producteur</em>
+  <em>Figure 9: Page de la liste des favoris</em>
 </p>
 
 ![image](https://github.com/johannvig/Bioclipse/assets/102874093/4f906832-3890-426c-9bdc-f9e9db7c89a8)
 <p align="center">
-  <em>Figure 2: Produits commercialisés par un producteur</em>
+  <em>Figure 10: Page du panier</em>
 </p>
 
 ![image](https://github.com/johannvig/Bioclipse/assets/102874093/6ee63ac6-4e54-4430-bfd2-141ddb6884e6)
 <p align="center">
-  <em>Figure 2: Produits commercialisés par un producteur</em>
+  <em>Figure 11: Page de l'historique des commandes</em>
 </p>
 
 ### Producteur
@@ -95,12 +95,12 @@ Développer une application web pour les producteurs alimentaires afin de distri
 
 ![image](https://github.com/johannvig/Bioclipse/assets/102874093/cb41812f-e267-4a0a-aa48-b7c9d9e0e003)
 <p align="center">
-  <em>Figure 2: Produits commercialisés par un producteur</em>
+  <em>Figure 12: Page des inventaires</em>
 </p>
 
 ![image](https://github.com/johannvig/Bioclipse/assets/102874093/c8b16127-b2ef-4136-b14c-b2cfd4ee669d)
 <p align="center">
-  <em>Figure 2: Produits commercialisés par un producteur</em>
+  <em>Figure 13: Page de création d'un produit</em>
 </p>
 
 
@@ -112,7 +112,7 @@ Développer une application web pour les producteurs alimentaires afin de distri
 
 ![image](https://github.com/johannvig/Bioclipse/assets/102874093/7943aeec-b9f7-445d-bb48-9935e725fe82)
 <p align="center">
-  <em>Figure 2: Produits commercialisés par un producteur</em>
+  <em>Figure 14: Page de gestion des utilisateurs</em>
 </p>
 
 ## Contraintes et Exigences
@@ -130,5 +130,4 @@ Développer une application web pour les producteurs alimentaires afin de distri
    - Compte producteur (test) :
 		- Adresse mail : arkan.catalon@laposte.net
 		- Mot de passe : Arkan123
- - Identifiant administrateur : or.noir@gmail.com 
-   - Mot de passe administrateur : root
+
