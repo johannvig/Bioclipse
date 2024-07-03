@@ -28,3 +28,15 @@
 ![image](https://github.com/johannvig/Bioclipse/assets/102874093/cb41812f-e267-4a0a-aa48-b7c9d9e0e003)
 
 ![image](https://github.com/johannvig/Bioclipse/assets/102874093/c8b16127-b2ef-4136-b14c-b2cfd4ee669d)
+
+
+
+- Compte utilisateur (test) :
+		- Adresse mail : ewen.buhot@gmail.com
+		- Mot de passe : Buhot123
+
+   - Compte producteur (test) :
+		- Adresse mail : arkan.catalon@laposte.net
+		- Mot de passe : Arkan123
+ - Identifiant administrateur : or.noir@gmail.com 
+   - Mot de passe administrateur : root
