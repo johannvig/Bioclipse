@@ -34,11 +34,19 @@ Développer une application web pour les producteurs alimentaires afin de distri
 </p>
 
 ![image](https://github.com/johannvig/Bioclipse/assets/102874093/65de7b51-97c7-42bf-bc4f-270714403c15)
+<p align="center">
+  <em>Figure 1: Capture d'écran de l'application</em>
+</p>
 
 ![image](https://github.com/johannvig/Bioclipse/assets/102874093/575990bb-dbeb-4e1e-b523-a10f7fb1361c)
-
+<p align="center">
+  <em>Figure 1: Capture d'écran de l'application</em>
+</p>
 
 ![image](https://github.com/johannvig/Bioclipse/assets/102874093/7c573d68-a27a-4990-a9dd-1501a5c50dbd)
+<p align="center">
+  <em>Figure 1: Capture d'écran de l'application</em>
+</p>
 
 ### Client
 - Toutes les capacités du Visiteur.
