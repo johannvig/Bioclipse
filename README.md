@@ -35,6 +35,7 @@ Développer une application web pour les producteurs alimentaires afin de distri
 - Envoyer des messages (à l'admin, à un producteur).
 
 ![image](https://github.com/johannvig/Bioclipse/assets/102874093/fde8cf51-f326-40f5-a81e-0a996bc05e75)
+![image](https://github.com/johannvig/Bioclipse/assets/102874093/d21e825d-64bc-4f2e-9219-ec4f216ca210)
 
 
 ![image](https://github.com/johannvig/Bioclipse/assets/102874093/b8239b86-8caf-40ef-8af4-f67771af9e75)
@@ -69,6 +70,9 @@ Développer une application web pour les producteurs alimentaires afin de distri
 - Supprimer des comptes producteurs.
 - Consulter les messages reçus et y répondre.
 - Envoyer des messages à une liste de diffusion (comptes Client et Producteur).
+
+![image](https://github.com/johannvig/Bioclipse/assets/102874093/7943aeec-b9f7-445d-bb48-9935e725fe82)
+
 
 ## Contraintes et Exigences
 
