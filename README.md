@@ -1,5 +1,57 @@
 # Bioclipse
 
+## Introduction
+
+Ce projet mené sur l'ensemble du semestre S3 avec pour objectif de concevoir et développer une application web selon des standards professionnels en groupe de 4 personnes. 
+
+## Objectifs du Projet
+
+Les objectifs de ce projet sont de :
+- Créer une application au sein d'une équipe en utilisant une approche de développement.
+- Clarifier, compléter, collecter et formaliser les besoins à partir d'une description initialement vague ou incomplète.
+- Développer une application qui manipule des données et respecte les paradigmes de qualité.
+
+## Sujet du Projet
+
+Développer une application web pour les producteurs alimentaires afin de distribuer leurs produits, avec quatre rôles utilisateurs :
+
+### Visiteur (Utilisateur non connecté)
+- Consulter la liste des producteurs.
+- Localiser les producteurs sur une carte.
+- Filtrer les producteurs par divers critères (type de produit, lieu, distance, etc.).
+- Consulter les produits commercialisés par un producteur.
+
+### Client
+- Toutes les capacités du Visiteur.
+- Créer, modifier, supprimer son compte.
+- Commander des produits (paiement et livraison sur place).
+- Envoyer des messages (à l'admin, à un producteur).
+
+### Producteur
+- Créer, modifier, supprimer son compte.
+- Supprimer des comptes clients lui appartenant.
+- Ajouter, supprimer, modifier des produits.
+- Gérer les stocks.
+- Lister les commandes (en cours, prête, livrée, annulée).
+- Modifier le statut d'une commande.
+- Créer un PDF pour chaque commande en cours.
+- Envoyer des messages (à l'admin, à un client).
+- Consulter les messages reçus et y répondre.
+
+### Administrateur
+- Supprimer des comptes producteurs.
+- Consulter les messages reçus et y répondre.
+- Envoyer des messages à une liste de diffusion (comptes Client et Producteur).
+
+## Contraintes et Exigences
+
+- **Conception Centrée sur l'Utilisateur** : L'interface doit se concentrer sur les besoins des utilisateurs, avec une bonne ergonomie et expérience utilisateur.
+- **Exigences Fonctionnelles et Techniques** :
+  - Persistance des données via une base de données MySQL ou SQL Server.
+  - Application entièrement paramétrable (pas de valeurs en dur dans le code) via une page de préférences (adresse de la base de données, étiquettes des champs texte, boutons, etc.).
+
+
+
 
 ![image](https://github.com/johannvig/Bioclipse/assets/102874093/65de7b51-97c7-42bf-bc4f-270714403c15)
 
