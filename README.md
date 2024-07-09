@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Ce projet mené sur l'ensemble du semestre S3 avec pour objectif de concevoir et développer une application web selon des standards professionnels en groupe de 4 personnes. 
+Ce projet mené sur l'ensemble du semestre S3 avec pour objectif de concevoir et développer une application web selon des standards professionnels. 
 
 ## Objectifs du Projet
 
